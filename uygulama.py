@@ -1,3 +1,5 @@
-import os
-for i in range(1,11):
-    os.mkdir("elma"+str(i))
+def selamla(a):
+    print("hosgeldin",a)
+isim=input("bir isim giriniz:")
+selamla(isim) #isim burada argüman oluyor.
+
